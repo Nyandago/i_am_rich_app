@@ -6,6 +6,9 @@ void main() {
       appBar: AppBar(
         title: Text('I am Rich'),
       ),
+      body: Center(
+        child:  Image(image: AssetImage('images/Canny.jpg')),
+      ),
     ),
   ));
 }
